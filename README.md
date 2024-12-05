@@ -113,7 +113,7 @@ We also use **Gates** to ensure that users can only perform actions on their own
 
 Here’s a sneak peek at some ideas for where **PastyBox** could go next:
 
--   **User Profiles**: Give users the ability to manage their own profiles and track their pasties.
+-   ~~**User Profiles**: Give users the ability to manage their own profiles and track their pasties.~~
 -   **Public/Private Snippets**: Add options for users to mark snippets as private or public, controlling who can view them.
 -   **Code Versioning**: Support version control for snippets to track changes over time.
 -   **Theming**: Dark mode, baby! (It’s time to make it official). 🎨🖤
