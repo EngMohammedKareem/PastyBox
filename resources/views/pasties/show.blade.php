@@ -9,6 +9,9 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
+                    <a href="{{ route(Auth::user()->username === $pasty->user->username ? 'dashboard':'users.show',$pasty->user->username) }}">
+                        <h1>{{ $pasty->user->name }}</h1>
+                    </a>
                     <h3 class="text-xl font-semibold text-gray-800 mb-4">Code Details</h3>
 
                     <!-- Code Snippet Section -->
